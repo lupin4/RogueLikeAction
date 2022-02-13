@@ -2,12 +2,18 @@
 
 
 #include "D_Character.h"
+#include "Camera/CameraComponent.h"
+
 
 // Sets default values
 AD_Character::AD_Character()
 {
  	// Set this character to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
+	SpringArmComp = CreateDefaultSubobject<USpringArmComponent>("SpringArmComp");
+	SpringArmComp->SetupAttachment(RootComponent);
+	CameraComp = CreateDefaultSubobject<UCameraComponent>("CameraComp");
+	CameraComp->SetupAttachment(SpringArmComp);
 
 }
 

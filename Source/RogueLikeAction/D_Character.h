@@ -3,8 +3,13 @@
 #pragma once
 
 #include "CoreMinimal.h"
+#include "Camera/CameraComponent.h"
 #include "GameFramework/Character.h"
+#include "GameFramework/SpringArmComponent.h"
 #include "D_Character.generated.h"
+
+class UCameraComponent;
+class USpringArmComponent;
 
 UCLASS()
 class ROGUELIKEACTION_API AD_Character : public ACharacter
@@ -16,6 +21,12 @@ public:
 	AD_Character();
 
 protected:
+	/**
+	 * Created a camera component attached to the player character;11
+	 */
+	UCameraComponent* CameraComp;
+	USpringArmComponent* SpringArmComp;
+	
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 
