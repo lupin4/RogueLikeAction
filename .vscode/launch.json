@@ -1,0 +1,128 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "RogueLikeAction (Debug)",
+			"request": "launch",
+			"preLaunchTask": "RogueLikeAction Win64 Debug Build",
+			"program": "I:\\_UnrealEngineVault\\RogueLikeAction\\Binaries\\Win64\\UE4-Win64-Debug.exe",
+			"args": [
+			],
+			"cwd": "D:\\_unReal\\games\\UE_4.27",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\_unReal\\games\\UE_4.27\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "RogueLikeAction (DebugGame)",
+			"request": "launch",
+			"preLaunchTask": "RogueLikeAction Win64 DebugGame Build",
+			"program": "I:\\_UnrealEngineVault\\RogueLikeAction\\Binaries\\Win64\\UE4-Win64-DebugGame.exe",
+			"args": [
+			],
+			"cwd": "D:\\_unReal\\games\\UE_4.27",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\_unReal\\games\\UE_4.27\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "RogueLikeAction (Development)",
+			"request": "launch",
+			"preLaunchTask": "RogueLikeAction Win64 Development Build",
+			"program": "I:\\_UnrealEngineVault\\RogueLikeAction\\Binaries\\Win64\\UE4.exe",
+			"args": [
+			],
+			"cwd": "D:\\_unReal\\games\\UE_4.27",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\_unReal\\games\\UE_4.27\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "RogueLikeAction (Shipping)",
+			"request": "launch",
+			"preLaunchTask": "RogueLikeAction Win64 Shipping Build",
+			"program": "I:\\_UnrealEngineVault\\RogueLikeAction\\Binaries\\Win64\\UE4-Win64-Shipping.exe",
+			"args": [
+			],
+			"cwd": "D:\\_unReal\\games\\UE_4.27",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\_unReal\\games\\UE_4.27\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "RogueLikeAction (Test)",
+			"request": "launch",
+			"preLaunchTask": "RogueLikeAction Win64 Test Build",
+			"program": "I:\\_UnrealEngineVault\\RogueLikeAction\\Binaries\\Win64\\UE4-Win64-Test.exe",
+			"args": [
+			],
+			"cwd": "D:\\_unReal\\games\\UE_4.27",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\_unReal\\games\\UE_4.27\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "RogueLikeActionEditor (Debug)",
+			"request": "launch",
+			"preLaunchTask": "RogueLikeActionEditor Win64 Debug Build",
+			"program": "D:\\_unReal\\games\\UE_4.27\\Engine\\Binaries\\Win64\\UE4Editor-Win64-Debug.exe",
+			"args": [
+				"I:\\_UnrealEngineVault\\RogueLikeAction\\RogueLikeAction.uproject"
+			],
+			"cwd": "D:\\_unReal\\games\\UE_4.27",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\_unReal\\games\\UE_4.27\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "RogueLikeActionEditor (DebugGame)",
+			"request": "launch",
+			"preLaunchTask": "RogueLikeActionEditor Win64 DebugGame Build",
+			"program": "D:\\_unReal\\games\\UE_4.27\\Engine\\Binaries\\Win64\\UE4Editor-Win64-DebugGame.exe",
+			"args": [
+				"I:\\_UnrealEngineVault\\RogueLikeAction\\RogueLikeAction.uproject"
+			],
+			"cwd": "D:\\_unReal\\games\\UE_4.27",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\_unReal\\games\\UE_4.27\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "RogueLikeActionEditor (Development)",
+			"request": "launch",
+			"preLaunchTask": "RogueLikeActionEditor Win64 Development Build",
+			"program": "D:\\_unReal\\games\\UE_4.27\\Engine\\Binaries\\Win64\\UE4Editor.exe",
+			"args": [
+				"I:\\_UnrealEngineVault\\RogueLikeAction\\RogueLikeAction.uproject"
+			],
+			"cwd": "D:\\_unReal\\games\\UE_4.27",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\_unReal\\games\\UE_4.27\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "Generate Project Files",
+			"type": "clr",
+			"request": "launch",
+			"program": "D:\\_unReal\\games\\UE_4.27\\Engine\\Binaries\\DotNET\\UnrealBuildTool.exe",
+			"console": "externalTerminal",
+			"args": [
+				"-projectfiles",
+				"-vscode",
+				"-project=I:\\_UnrealEngineVault\\RogueLikeAction\\RogueLikeAction.uproject",
+				"-game",
+				"-engine"
+			],
+			"internalConsoleOptions": "openOnSessionStart",
+			"cwd": "D:\\_unReal\\games\\UE_4.27"
+		}
+	]
+}

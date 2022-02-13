@@ -1,0 +1,1447 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "RogueLikeAction Win32 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"RogueLikeAction",
+				"Win32",
+				"Debug",
+				"I:\\_UnrealEngineVault\\RogueLikeAction\\RogueLikeAction.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\_unReal\\games\\UE_4.27"
+			}
+		},
+		{
+			"label": "RogueLikeAction Win32 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"RogueLikeAction",
+				"Win32",
+				"Debug",
+				"I:\\_UnrealEngineVault\\RogueLikeAction\\RogueLikeAction.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"RogueLikeAction Win32 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\_unReal\\games\\UE_4.27"
+			}
+		},
+		{
+			"label": "RogueLikeAction Win32 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"RogueLikeAction",
+				"Win32",
+				"Debug",
+				"I:\\_UnrealEngineVault\\RogueLikeAction\\RogueLikeAction.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\_unReal\\games\\UE_4.27"
+			}
+		},
+		{
+			"label": "RogueLikeAction Win32 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"RogueLikeAction",
+				"Win32",
+				"DebugGame",
+				"I:\\_UnrealEngineVault\\RogueLikeAction\\RogueLikeAction.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\_unReal\\games\\UE_4.27"
+			}
+		},
+		{
+			"label": "RogueLikeAction Win32 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"RogueLikeAction",
+				"Win32",
+				"DebugGame",
+				"I:\\_UnrealEngineVault\\RogueLikeAction\\RogueLikeAction.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"RogueLikeAction Win32 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\_unReal\\games\\UE_4.27"
+			}
+		},
+		{
+			"label": "RogueLikeAction Win32 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"RogueLikeAction",
+				"Win32",
+				"DebugGame",
+				"I:\\_UnrealEngineVault\\RogueLikeAction\\RogueLikeAction.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\_unReal\\games\\UE_4.27"
+			}
+		},
+		{
+			"label": "RogueLikeAction Win32 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"RogueLikeAction",
+				"Win32",
+				"Development",
+				"I:\\_UnrealEngineVault\\RogueLikeAction\\RogueLikeAction.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\_unReal\\games\\UE_4.27"
+			}
+		},
+		{
+			"label": "RogueLikeAction Win32 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"RogueLikeAction",
+				"Win32",
+				"Development",
+				"I:\\_UnrealEngineVault\\RogueLikeAction\\RogueLikeAction.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"RogueLikeAction Win32 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\_unReal\\games\\UE_4.27"
+			}
+		},
+		{
+			"label": "RogueLikeAction Win32 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"RogueLikeAction",
+				"Win32",
+				"Development",
+				"I:\\_UnrealEngineVault\\RogueLikeAction\\RogueLikeAction.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\_unReal\\games\\UE_4.27"
+			}
+		},
+		{
+			"label": "RogueLikeAction Win32 Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"RogueLikeAction",
+				"Win32",
+				"Shipping",
+				"I:\\_UnrealEngineVault\\RogueLikeAction\\RogueLikeAction.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\_unReal\\games\\UE_4.27"
+			}
+		},
+		{
+			"label": "RogueLikeAction Win32 Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"RogueLikeAction",
+				"Win32",
+				"Shipping",
+				"I:\\_UnrealEngineVault\\RogueLikeAction\\RogueLikeAction.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"RogueLikeAction Win32 Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\_unReal\\games\\UE_4.27"
+			}
+		},
+		{
+			"label": "RogueLikeAction Win32 Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"RogueLikeAction",
+				"Win32",
+				"Shipping",
+				"I:\\_UnrealEngineVault\\RogueLikeAction\\RogueLikeAction.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\_unReal\\games\\UE_4.27"
+			}
+		},
+		{
+			"label": "RogueLikeAction Win32 Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"RogueLikeAction",
+				"Win32",
+				"Test",
+				"I:\\_UnrealEngineVault\\RogueLikeAction\\RogueLikeAction.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\_unReal\\games\\UE_4.27"
+			}
+		},
+		{
+			"label": "RogueLikeAction Win32 Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"RogueLikeAction",
+				"Win32",
+				"Test",
+				"I:\\_UnrealEngineVault\\RogueLikeAction\\RogueLikeAction.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"RogueLikeAction Win32 Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\_unReal\\games\\UE_4.27"
+			}
+		},
+		{
+			"label": "RogueLikeAction Win32 Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"RogueLikeAction",
+				"Win32",
+				"Test",
+				"I:\\_UnrealEngineVault\\RogueLikeAction\\RogueLikeAction.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\_unReal\\games\\UE_4.27"
+			}
+		},
+		{
+			"label": "RogueLikeAction Win64 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"RogueLikeAction",
+				"Win64",
+				"Debug",
+				"I:\\_UnrealEngineVault\\RogueLikeAction\\RogueLikeAction.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\_unReal\\games\\UE_4.27"
+			}
+		},
+		{
+			"label": "RogueLikeAction Win64 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"RogueLikeAction",
+				"Win64",
+				"Debug",
+				"I:\\_UnrealEngineVault\\RogueLikeAction\\RogueLikeAction.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"RogueLikeAction Win64 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\_unReal\\games\\UE_4.27"
+			}
+		},
+		{
+			"label": "RogueLikeAction Win64 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"RogueLikeAction",
+				"Win64",
+				"Debug",
+				"I:\\_UnrealEngineVault\\RogueLikeAction\\RogueLikeAction.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\_unReal\\games\\UE_4.27"
+			}
+		},
+		{
+			"label": "RogueLikeAction Win64 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"RogueLikeAction",
+				"Win64",
+				"DebugGame",
+				"I:\\_UnrealEngineVault\\RogueLikeAction\\RogueLikeAction.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\_unReal\\games\\UE_4.27"
+			}
+		},
+		{
+			"label": "RogueLikeAction Win64 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"RogueLikeAction",
+				"Win64",
+				"DebugGame",
+				"I:\\_UnrealEngineVault\\RogueLikeAction\\RogueLikeAction.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"RogueLikeAction Win64 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\_unReal\\games\\UE_4.27"
+			}
+		},
+		{
+			"label": "RogueLikeAction Win64 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"RogueLikeAction",
+				"Win64",
+				"DebugGame",
+				"I:\\_UnrealEngineVault\\RogueLikeAction\\RogueLikeAction.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\_unReal\\games\\UE_4.27"
+			}
+		},
+		{
+			"label": "RogueLikeAction Win64 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"RogueLikeAction",
+				"Win64",
+				"Development",
+				"I:\\_UnrealEngineVault\\RogueLikeAction\\RogueLikeAction.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\_unReal\\games\\UE_4.27"
+			}
+		},
+		{
+			"label": "RogueLikeAction Win64 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"RogueLikeAction",
+				"Win64",
+				"Development",
+				"I:\\_UnrealEngineVault\\RogueLikeAction\\RogueLikeAction.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"RogueLikeAction Win64 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\_unReal\\games\\UE_4.27"
+			}
+		},
+		{
+			"label": "RogueLikeAction Win64 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"RogueLikeAction",
+				"Win64",
+				"Development",
+				"I:\\_UnrealEngineVault\\RogueLikeAction\\RogueLikeAction.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\_unReal\\games\\UE_4.27"
+			}
+		},
+		{
+			"label": "RogueLikeAction Win64 Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"RogueLikeAction",
+				"Win64",
+				"Shipping",
+				"I:\\_UnrealEngineVault\\RogueLikeAction\\RogueLikeAction.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\_unReal\\games\\UE_4.27"
+			}
+		},
+		{
+			"label": "RogueLikeAction Win64 Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"RogueLikeAction",
+				"Win64",
+				"Shipping",
+				"I:\\_UnrealEngineVault\\RogueLikeAction\\RogueLikeAction.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"RogueLikeAction Win64 Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\_unReal\\games\\UE_4.27"
+			}
+		},
+		{
+			"label": "RogueLikeAction Win64 Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"RogueLikeAction",
+				"Win64",
+				"Shipping",
+				"I:\\_UnrealEngineVault\\RogueLikeAction\\RogueLikeAction.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\_unReal\\games\\UE_4.27"
+			}
+		},
+		{
+			"label": "RogueLikeAction Win64 Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"RogueLikeAction",
+				"Win64",
+				"Test",
+				"I:\\_UnrealEngineVault\\RogueLikeAction\\RogueLikeAction.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\_unReal\\games\\UE_4.27"
+			}
+		},
+		{
+			"label": "RogueLikeAction Win64 Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"RogueLikeAction",
+				"Win64",
+				"Test",
+				"I:\\_UnrealEngineVault\\RogueLikeAction\\RogueLikeAction.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"RogueLikeAction Win64 Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\_unReal\\games\\UE_4.27"
+			}
+		},
+		{
+			"label": "RogueLikeAction Win64 Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"RogueLikeAction",
+				"Win64",
+				"Test",
+				"I:\\_UnrealEngineVault\\RogueLikeAction\\RogueLikeAction.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\_unReal\\games\\UE_4.27"
+			}
+		},
+		{
+			"label": "RogueLikeAction Android Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"RogueLikeAction",
+				"Android",
+				"Debug",
+				"I:\\_UnrealEngineVault\\RogueLikeAction\\RogueLikeAction.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\_unReal\\games\\UE_4.27"
+			}
+		},
+		{
+			"label": "RogueLikeAction Android Debug Cook+Deploy",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\RunUAT.bat",
+			"args": [
+				"BuildCookRun",
+				"-ScriptsForProject=I:/_UnrealEngineVault/RogueLikeAction/RogueLikeAction.uproject",
+				"-Project=I:/_UnrealEngineVault/RogueLikeAction/RogueLikeAction.uproject",
+				"-noP4",
+				"-ClientConfig=Debug",
+				"-ServerConfig=Debug",
+				"-NoCompileEditor",
+				"-utf8output",
+				"-Platform=Android",
+				"-TargetPlatform=Android",
+				"-ini:Game:[/Script/UnrealEd.ProjectPackagingSettings]:BlueprintNativizationMethod=Disabled",
+				"-Compressed",
+				"-IterativeCooking",
+				"-IterativeDeploy",
+				"-Cook",
+				"-Stage",
+				"-Deploy"
+			],
+			"dependsOn": [
+				"RogueLikeActionEditor Win64 Development Build",
+				"RogueLikeAction Android Debug Build"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\_unReal\\games\\UE_4.27"
+			}
+		},
+		{
+			"label": "RogueLikeAction Android Debug Cook",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\RunUAT.bat",
+			"args": [
+				"BuildCookRun",
+				"-ScriptsForProject=I:/_UnrealEngineVault/RogueLikeAction/RogueLikeAction.uproject",
+				"-Project=I:/_UnrealEngineVault/RogueLikeAction/RogueLikeAction.uproject",
+				"-noP4",
+				"-ClientConfig=Debug",
+				"-ServerConfig=Debug",
+				"-NoCompileEditor",
+				"-utf8output",
+				"-Platform=Android",
+				"-TargetPlatform=Android",
+				"-ini:Game:[/Script/UnrealEd.ProjectPackagingSettings]:BlueprintNativizationMethod=Disabled",
+				"-Compressed",
+				"-IterativeCooking",
+				"-IterativeDeploy",
+				"-Cook"
+			],
+			"dependsOn": [
+				"RogueLikeActionEditor Win64 Development Build",
+				"RogueLikeAction Android Debug Build"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\_unReal\\games\\UE_4.27"
+			}
+		},
+		{
+			"label": "RogueLikeAction Android Debug Deploy",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\RunUAT.bat",
+			"args": [
+				"BuildCookRun",
+				"-ScriptsForProject=I:/_UnrealEngineVault/RogueLikeAction/RogueLikeAction.uproject",
+				"-Project=I:/_UnrealEngineVault/RogueLikeAction/RogueLikeAction.uproject",
+				"-noP4",
+				"-ClientConfig=Debug",
+				"-ServerConfig=Debug",
+				"-NoCompileEditor",
+				"-utf8output",
+				"-Platform=Android",
+				"-TargetPlatform=Android",
+				"-ini:Game:[/Script/UnrealEd.ProjectPackagingSettings]:BlueprintNativizationMethod=Disabled",
+				"-Compressed",
+				"-IterativeCooking",
+				"-IterativeDeploy",
+				"-DeploySoToDevice",
+				"-SkipCook",
+				"-Stage",
+				"-Deploy"
+			],
+			"dependsOn": [
+				"RogueLikeAction Android Debug Build"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\_unReal\\games\\UE_4.27"
+			}
+		},
+		{
+			"label": "RogueLikeAction Android Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"RogueLikeAction",
+				"Android",
+				"Debug",
+				"I:\\_UnrealEngineVault\\RogueLikeAction\\RogueLikeAction.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"RogueLikeAction Android Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\_unReal\\games\\UE_4.27"
+			}
+		},
+		{
+			"label": "RogueLikeAction Android Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"RogueLikeAction",
+				"Android",
+				"Debug",
+				"I:\\_UnrealEngineVault\\RogueLikeAction\\RogueLikeAction.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\_unReal\\games\\UE_4.27"
+			}
+		},
+		{
+			"label": "RogueLikeAction Android DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"RogueLikeAction",
+				"Android",
+				"DebugGame",
+				"I:\\_UnrealEngineVault\\RogueLikeAction\\RogueLikeAction.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\_unReal\\games\\UE_4.27"
+			}
+		},
+		{
+			"label": "RogueLikeAction Android DebugGame Cook+Deploy",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\RunUAT.bat",
+			"args": [
+				"BuildCookRun",
+				"-ScriptsForProject=I:/_UnrealEngineVault/RogueLikeAction/RogueLikeAction.uproject",
+				"-Project=I:/_UnrealEngineVault/RogueLikeAction/RogueLikeAction.uproject",
+				"-noP4",
+				"-ClientConfig=DebugGame",
+				"-ServerConfig=DebugGame",
+				"-NoCompileEditor",
+				"-utf8output",
+				"-Platform=Android",
+				"-TargetPlatform=Android",
+				"-ini:Game:[/Script/UnrealEd.ProjectPackagingSettings]:BlueprintNativizationMethod=Disabled",
+				"-Compressed",
+				"-IterativeCooking",
+				"-IterativeDeploy",
+				"-Cook",
+				"-Stage",
+				"-Deploy"
+			],
+			"dependsOn": [
+				"RogueLikeActionEditor Win64 Development Build",
+				"RogueLikeAction Android DebugGame Build"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\_unReal\\games\\UE_4.27"
+			}
+		},
+		{
+			"label": "RogueLikeAction Android DebugGame Cook",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\RunUAT.bat",
+			"args": [
+				"BuildCookRun",
+				"-ScriptsForProject=I:/_UnrealEngineVault/RogueLikeAction/RogueLikeAction.uproject",
+				"-Project=I:/_UnrealEngineVault/RogueLikeAction/RogueLikeAction.uproject",
+				"-noP4",
+				"-ClientConfig=DebugGame",
+				"-ServerConfig=DebugGame",
+				"-NoCompileEditor",
+				"-utf8output",
+				"-Platform=Android",
+				"-TargetPlatform=Android",
+				"-ini:Game:[/Script/UnrealEd.ProjectPackagingSettings]:BlueprintNativizationMethod=Disabled",
+				"-Compressed",
+				"-IterativeCooking",
+				"-IterativeDeploy",
+				"-Cook"
+			],
+			"dependsOn": [
+				"RogueLikeActionEditor Win64 Development Build",
+				"RogueLikeAction Android DebugGame Build"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\_unReal\\games\\UE_4.27"
+			}
+		},
+		{
+			"label": "RogueLikeAction Android DebugGame Deploy",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\RunUAT.bat",
+			"args": [
+				"BuildCookRun",
+				"-ScriptsForProject=I:/_UnrealEngineVault/RogueLikeAction/RogueLikeAction.uproject",
+				"-Project=I:/_UnrealEngineVault/RogueLikeAction/RogueLikeAction.uproject",
+				"-noP4",
+				"-ClientConfig=DebugGame",
+				"-ServerConfig=DebugGame",
+				"-NoCompileEditor",
+				"-utf8output",
+				"-Platform=Android",
+				"-TargetPlatform=Android",
+				"-ini:Game:[/Script/UnrealEd.ProjectPackagingSettings]:BlueprintNativizationMethod=Disabled",
+				"-Compressed",
+				"-IterativeCooking",
+				"-IterativeDeploy",
+				"-DeploySoToDevice",
+				"-SkipCook",
+				"-Stage",
+				"-Deploy"
+			],
+			"dependsOn": [
+				"RogueLikeAction Android DebugGame Build"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\_unReal\\games\\UE_4.27"
+			}
+		},
+		{
+			"label": "RogueLikeAction Android DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"RogueLikeAction",
+				"Android",
+				"DebugGame",
+				"I:\\_UnrealEngineVault\\RogueLikeAction\\RogueLikeAction.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"RogueLikeAction Android DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\_unReal\\games\\UE_4.27"
+			}
+		},
+		{
+			"label": "RogueLikeAction Android DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"RogueLikeAction",
+				"Android",
+				"DebugGame",
+				"I:\\_UnrealEngineVault\\RogueLikeAction\\RogueLikeAction.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\_unReal\\games\\UE_4.27"
+			}
+		},
+		{
+			"label": "RogueLikeAction Android Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"RogueLikeAction",
+				"Android",
+				"Development",
+				"I:\\_UnrealEngineVault\\RogueLikeAction\\RogueLikeAction.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\_unReal\\games\\UE_4.27"
+			}
+		},
+		{
+			"label": "RogueLikeAction Android Development Cook+Deploy",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\RunUAT.bat",
+			"args": [
+				"BuildCookRun",
+				"-ScriptsForProject=I:/_UnrealEngineVault/RogueLikeAction/RogueLikeAction.uproject",
+				"-Project=I:/_UnrealEngineVault/RogueLikeAction/RogueLikeAction.uproject",
+				"-noP4",
+				"-ClientConfig=Development",
+				"-ServerConfig=Development",
+				"-NoCompileEditor",
+				"-utf8output",
+				"-Platform=Android",
+				"-TargetPlatform=Android",
+				"-ini:Game:[/Script/UnrealEd.ProjectPackagingSettings]:BlueprintNativizationMethod=Disabled",
+				"-Compressed",
+				"-IterativeCooking",
+				"-IterativeDeploy",
+				"-Cook",
+				"-Stage",
+				"-Deploy"
+			],
+			"dependsOn": [
+				"RogueLikeActionEditor Win64 Development Build",
+				"RogueLikeAction Android Development Build"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\_unReal\\games\\UE_4.27"
+			}
+		},
+		{
+			"label": "RogueLikeAction Android Development Cook",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\RunUAT.bat",
+			"args": [
+				"BuildCookRun",
+				"-ScriptsForProject=I:/_UnrealEngineVault/RogueLikeAction/RogueLikeAction.uproject",
+				"-Project=I:/_UnrealEngineVault/RogueLikeAction/RogueLikeAction.uproject",
+				"-noP4",
+				"-ClientConfig=Development",
+				"-ServerConfig=Development",
+				"-NoCompileEditor",
+				"-utf8output",
+				"-Platform=Android",
+				"-TargetPlatform=Android",
+				"-ini:Game:[/Script/UnrealEd.ProjectPackagingSettings]:BlueprintNativizationMethod=Disabled",
+				"-Compressed",
+				"-IterativeCooking",
+				"-IterativeDeploy",
+				"-Cook"
+			],
+			"dependsOn": [
+				"RogueLikeActionEditor Win64 Development Build",
+				"RogueLikeAction Android Development Build"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\_unReal\\games\\UE_4.27"
+			}
+		},
+		{
+			"label": "RogueLikeAction Android Development Deploy",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\RunUAT.bat",
+			"args": [
+				"BuildCookRun",
+				"-ScriptsForProject=I:/_UnrealEngineVault/RogueLikeAction/RogueLikeAction.uproject",
+				"-Project=I:/_UnrealEngineVault/RogueLikeAction/RogueLikeAction.uproject",
+				"-noP4",
+				"-ClientConfig=Development",
+				"-ServerConfig=Development",
+				"-NoCompileEditor",
+				"-utf8output",
+				"-Platform=Android",
+				"-TargetPlatform=Android",
+				"-ini:Game:[/Script/UnrealEd.ProjectPackagingSettings]:BlueprintNativizationMethod=Disabled",
+				"-Compressed",
+				"-IterativeCooking",
+				"-IterativeDeploy",
+				"-DeploySoToDevice",
+				"-SkipCook",
+				"-Stage",
+				"-Deploy"
+			],
+			"dependsOn": [
+				"RogueLikeAction Android Development Build"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\_unReal\\games\\UE_4.27"
+			}
+		},
+		{
+			"label": "RogueLikeAction Android Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"RogueLikeAction",
+				"Android",
+				"Development",
+				"I:\\_UnrealEngineVault\\RogueLikeAction\\RogueLikeAction.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"RogueLikeAction Android Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\_unReal\\games\\UE_4.27"
+			}
+		},
+		{
+			"label": "RogueLikeAction Android Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"RogueLikeAction",
+				"Android",
+				"Development",
+				"I:\\_UnrealEngineVault\\RogueLikeAction\\RogueLikeAction.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\_unReal\\games\\UE_4.27"
+			}
+		},
+		{
+			"label": "RogueLikeAction Android Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"RogueLikeAction",
+				"Android",
+				"Shipping",
+				"I:\\_UnrealEngineVault\\RogueLikeAction\\RogueLikeAction.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\_unReal\\games\\UE_4.27"
+			}
+		},
+		{
+			"label": "RogueLikeAction Android Shipping Cook+Deploy",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\RunUAT.bat",
+			"args": [
+				"BuildCookRun",
+				"-ScriptsForProject=I:/_UnrealEngineVault/RogueLikeAction/RogueLikeAction.uproject",
+				"-Project=I:/_UnrealEngineVault/RogueLikeAction/RogueLikeAction.uproject",
+				"-noP4",
+				"-ClientConfig=Shipping",
+				"-ServerConfig=Shipping",
+				"-NoCompileEditor",
+				"-utf8output",
+				"-Platform=Android",
+				"-TargetPlatform=Android",
+				"-ini:Game:[/Script/UnrealEd.ProjectPackagingSettings]:BlueprintNativizationMethod=Disabled",
+				"-Compressed",
+				"-IterativeCooking",
+				"-IterativeDeploy",
+				"-Cook",
+				"-Stage",
+				"-Deploy"
+			],
+			"dependsOn": [
+				"RogueLikeActionEditor Win64 Development Build",
+				"RogueLikeAction Android Shipping Build"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\_unReal\\games\\UE_4.27"
+			}
+		},
+		{
+			"label": "RogueLikeAction Android Shipping Cook",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\RunUAT.bat",
+			"args": [
+				"BuildCookRun",
+				"-ScriptsForProject=I:/_UnrealEngineVault/RogueLikeAction/RogueLikeAction.uproject",
+				"-Project=I:/_UnrealEngineVault/RogueLikeAction/RogueLikeAction.uproject",
+				"-noP4",
+				"-ClientConfig=Shipping",
+				"-ServerConfig=Shipping",
+				"-NoCompileEditor",
+				"-utf8output",
+				"-Platform=Android",
+				"-TargetPlatform=Android",
+				"-ini:Game:[/Script/UnrealEd.ProjectPackagingSettings]:BlueprintNativizationMethod=Disabled",
+				"-Compressed",
+				"-IterativeCooking",
+				"-IterativeDeploy",
+				"-Cook"
+			],
+			"dependsOn": [
+				"RogueLikeActionEditor Win64 Development Build",
+				"RogueLikeAction Android Shipping Build"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\_unReal\\games\\UE_4.27"
+			}
+		},
+		{
+			"label": "RogueLikeAction Android Shipping Deploy",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\RunUAT.bat",
+			"args": [
+				"BuildCookRun",
+				"-ScriptsForProject=I:/_UnrealEngineVault/RogueLikeAction/RogueLikeAction.uproject",
+				"-Project=I:/_UnrealEngineVault/RogueLikeAction/RogueLikeAction.uproject",
+				"-noP4",
+				"-ClientConfig=Shipping",
+				"-ServerConfig=Shipping",
+				"-NoCompileEditor",
+				"-utf8output",
+				"-Platform=Android",
+				"-TargetPlatform=Android",
+				"-ini:Game:[/Script/UnrealEd.ProjectPackagingSettings]:BlueprintNativizationMethod=Disabled",
+				"-Compressed",
+				"-IterativeCooking",
+				"-IterativeDeploy",
+				"-DeploySoToDevice",
+				"-SkipCook",
+				"-Stage",
+				"-Deploy"
+			],
+			"dependsOn": [
+				"RogueLikeAction Android Shipping Build"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\_unReal\\games\\UE_4.27"
+			}
+		},
+		{
+			"label": "RogueLikeAction Android Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"RogueLikeAction",
+				"Android",
+				"Shipping",
+				"I:\\_UnrealEngineVault\\RogueLikeAction\\RogueLikeAction.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"RogueLikeAction Android Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\_unReal\\games\\UE_4.27"
+			}
+		},
+		{
+			"label": "RogueLikeAction Android Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"RogueLikeAction",
+				"Android",
+				"Shipping",
+				"I:\\_UnrealEngineVault\\RogueLikeAction\\RogueLikeAction.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\_unReal\\games\\UE_4.27"
+			}
+		},
+		{
+			"label": "RogueLikeAction Android Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"RogueLikeAction",
+				"Android",
+				"Test",
+				"I:\\_UnrealEngineVault\\RogueLikeAction\\RogueLikeAction.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\_unReal\\games\\UE_4.27"
+			}
+		},
+		{
+			"label": "RogueLikeAction Android Test Cook+Deploy",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\RunUAT.bat",
+			"args": [
+				"BuildCookRun",
+				"-ScriptsForProject=I:/_UnrealEngineVault/RogueLikeAction/RogueLikeAction.uproject",
+				"-Project=I:/_UnrealEngineVault/RogueLikeAction/RogueLikeAction.uproject",
+				"-noP4",
+				"-ClientConfig=Test",
+				"-ServerConfig=Test",
+				"-NoCompileEditor",
+				"-utf8output",
+				"-Platform=Android",
+				"-TargetPlatform=Android",
+				"-ini:Game:[/Script/UnrealEd.ProjectPackagingSettings]:BlueprintNativizationMethod=Disabled",
+				"-Compressed",
+				"-IterativeCooking",
+				"-IterativeDeploy",
+				"-Cook",
+				"-Stage",
+				"-Deploy"
+			],
+			"dependsOn": [
+				"RogueLikeActionEditor Win64 Development Build",
+				"RogueLikeAction Android Test Build"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\_unReal\\games\\UE_4.27"
+			}
+		},
+		{
+			"label": "RogueLikeAction Android Test Cook",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\RunUAT.bat",
+			"args": [
+				"BuildCookRun",
+				"-ScriptsForProject=I:/_UnrealEngineVault/RogueLikeAction/RogueLikeAction.uproject",
+				"-Project=I:/_UnrealEngineVault/RogueLikeAction/RogueLikeAction.uproject",
+				"-noP4",
+				"-ClientConfig=Test",
+				"-ServerConfig=Test",
+				"-NoCompileEditor",
+				"-utf8output",
+				"-Platform=Android",
+				"-TargetPlatform=Android",
+				"-ini:Game:[/Script/UnrealEd.ProjectPackagingSettings]:BlueprintNativizationMethod=Disabled",
+				"-Compressed",
+				"-IterativeCooking",
+				"-IterativeDeploy",
+				"-Cook"
+			],
+			"dependsOn": [
+				"RogueLikeActionEditor Win64 Development Build",
+				"RogueLikeAction Android Test Build"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\_unReal\\games\\UE_4.27"
+			}
+		},
+		{
+			"label": "RogueLikeAction Android Test Deploy",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\RunUAT.bat",
+			"args": [
+				"BuildCookRun",
+				"-ScriptsForProject=I:/_UnrealEngineVault/RogueLikeAction/RogueLikeAction.uproject",
+				"-Project=I:/_UnrealEngineVault/RogueLikeAction/RogueLikeAction.uproject",
+				"-noP4",
+				"-ClientConfig=Test",
+				"-ServerConfig=Test",
+				"-NoCompileEditor",
+				"-utf8output",
+				"-Platform=Android",
+				"-TargetPlatform=Android",
+				"-ini:Game:[/Script/UnrealEd.ProjectPackagingSettings]:BlueprintNativizationMethod=Disabled",
+				"-Compressed",
+				"-IterativeCooking",
+				"-IterativeDeploy",
+				"-DeploySoToDevice",
+				"-SkipCook",
+				"-Stage",
+				"-Deploy"
+			],
+			"dependsOn": [
+				"RogueLikeAction Android Test Build"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\_unReal\\games\\UE_4.27"
+			}
+		},
+		{
+			"label": "RogueLikeAction Android Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"RogueLikeAction",
+				"Android",
+				"Test",
+				"I:\\_UnrealEngineVault\\RogueLikeAction\\RogueLikeAction.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"RogueLikeAction Android Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\_unReal\\games\\UE_4.27"
+			}
+		},
+		{
+			"label": "RogueLikeAction Android Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"RogueLikeAction",
+				"Android",
+				"Test",
+				"I:\\_UnrealEngineVault\\RogueLikeAction\\RogueLikeAction.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\_unReal\\games\\UE_4.27"
+			}
+		},
+		{
+			"label": "RogueLikeActionEditor Win64 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"RogueLikeActionEditor",
+				"Win64",
+				"Debug",
+				"I:\\_UnrealEngineVault\\RogueLikeAction\\RogueLikeAction.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\_unReal\\games\\UE_4.27"
+			}
+		},
+		{
+			"label": "RogueLikeActionEditor Win64 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"RogueLikeActionEditor",
+				"Win64",
+				"Debug",
+				"I:\\_UnrealEngineVault\\RogueLikeAction\\RogueLikeAction.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"RogueLikeActionEditor Win64 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\_unReal\\games\\UE_4.27"
+			}
+		},
+		{
+			"label": "RogueLikeActionEditor Win64 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"RogueLikeActionEditor",
+				"Win64",
+				"Debug",
+				"I:\\_UnrealEngineVault\\RogueLikeAction\\RogueLikeAction.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\_unReal\\games\\UE_4.27"
+			}
+		},
+		{
+			"label": "RogueLikeActionEditor Win64 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"RogueLikeActionEditor",
+				"Win64",
+				"DebugGame",
+				"I:\\_UnrealEngineVault\\RogueLikeAction\\RogueLikeAction.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\_unReal\\games\\UE_4.27"
+			}
+		},
+		{
+			"label": "RogueLikeActionEditor Win64 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"RogueLikeActionEditor",
+				"Win64",
+				"DebugGame",
+				"I:\\_UnrealEngineVault\\RogueLikeAction\\RogueLikeAction.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"RogueLikeActionEditor Win64 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\_unReal\\games\\UE_4.27"
+			}
+		},
+		{
+			"label": "RogueLikeActionEditor Win64 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"RogueLikeActionEditor",
+				"Win64",
+				"DebugGame",
+				"I:\\_UnrealEngineVault\\RogueLikeAction\\RogueLikeAction.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\_unReal\\games\\UE_4.27"
+			}
+		},
+		{
+			"label": "RogueLikeActionEditor Win64 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"RogueLikeActionEditor",
+				"Win64",
+				"Development",
+				"I:\\_UnrealEngineVault\\RogueLikeAction\\RogueLikeAction.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\_unReal\\games\\UE_4.27"
+			}
+		},
+		{
+			"label": "RogueLikeActionEditor Win64 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"RogueLikeActionEditor",
+				"Win64",
+				"Development",
+				"I:\\_UnrealEngineVault\\RogueLikeAction\\RogueLikeAction.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"RogueLikeActionEditor Win64 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\_unReal\\games\\UE_4.27"
+			}
+		},
+		{
+			"label": "RogueLikeActionEditor Win64 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"RogueLikeActionEditor",
+				"Win64",
+				"Development",
+				"I:\\_UnrealEngineVault\\RogueLikeAction\\RogueLikeAction.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\_unReal\\games\\UE_4.27"
+			}
+		}
+	]
+}

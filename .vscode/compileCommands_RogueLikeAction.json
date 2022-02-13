@@ -1,0 +1,27 @@
+[
+	{
+		"file": "I:\\\\_UnrealEngineVault\\\\RogueLikeAction\\\\Source\\\\RogueLikeAction\\\\RogueLikeAction.Build.cs",
+		"command": "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30037\\bin\\HostX64\\x64\\cl.exe @\"I:\\_UnrealEngineVault\\RogueLikeAction\\.vscode\\compileCommands_RogueLikeAction\\RogueLikeAction.217.rsp\"",
+		"directory": "D:\\_unReal\\games\\UE_4.27\\Engine\\Source"
+	},
+	{
+		"file": "I:\\\\_UnrealEngineVault\\\\RogueLikeAction\\\\Source\\\\RogueLikeAction\\\\RogueLikeAction.cpp",
+		"command": "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30037\\bin\\HostX64\\x64\\cl.exe @\"I:\\_UnrealEngineVault\\RogueLikeAction\\.vscode\\compileCommands_RogueLikeAction\\RogueLikeAction.217.rsp\"",
+		"directory": "D:\\_unReal\\games\\UE_4.27\\Engine\\Source"
+	},
+	{
+		"file": "I:\\\\_UnrealEngineVault\\\\RogueLikeAction\\\\Source\\\\RogueLikeAction\\\\RogueLikeAction.h",
+		"command": "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30037\\bin\\HostX64\\x64\\cl.exe @\"I:\\_UnrealEngineVault\\RogueLikeAction\\.vscode\\compileCommands_RogueLikeAction\\RogueLikeAction.217.rsp\"",
+		"directory": "D:\\_unReal\\games\\UE_4.27\\Engine\\Source"
+	},
+	{
+		"file": "I:\\\\_UnrealEngineVault\\\\RogueLikeAction\\\\Source\\\\RogueLikeAction\\\\RogueLikeActionGameModeBase.cpp",
+		"command": "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30037\\bin\\HostX64\\x64\\cl.exe @\"I:\\_UnrealEngineVault\\RogueLikeAction\\.vscode\\compileCommands_RogueLikeAction\\RogueLikeAction.217.rsp\"",
+		"directory": "D:\\_unReal\\games\\UE_4.27\\Engine\\Source"
+	},
+	{
+		"file": "I:\\\\_UnrealEngineVault\\\\RogueLikeAction\\\\Source\\\\RogueLikeAction\\\\RogueLikeActionGameModeBase.h",
+		"command": "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30037\\bin\\HostX64\\x64\\cl.exe @\"I:\\_UnrealEngineVault\\RogueLikeAction\\.vscode\\compileCommands_RogueLikeAction\\RogueLikeAction.217.rsp\"",
+		"directory": "D:\\_unReal\\games\\UE_4.27\\Engine\\Source"
+	}
+]

@@ -1,0 +1,14 @@
+{
+	"configurations": [
+		{
+			"name": "RogueLikeActionEditor Editor Win64 Development (RogueLikeAction)",
+			"intelliSenseMode": "msvc-x64",
+			"compileCommands": "I:\\_UnrealEngineVault\\RogueLikeAction\\.vscode\\compileCommands_RogueLikeAction.json"
+		},
+		{
+			"name": "Win32",
+			"intelliSenseMode": "msvc-x64",
+			"compileCommands": "I:\\_UnrealEngineVault\\RogueLikeAction\\.vscode\\compileCommands_Default.json"
+		}
+	]
+}
